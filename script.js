@@ -1,4 +1,4 @@
-(function(){
+var social = function ({
 
   var socialMedia = {
     facebook : 'http://facebook.com/viewsource',
@@ -7,7 +7,6 @@
     youtube: 'http://youtube.com/planetoftheweb'
   };
 
-  console.log(socialMedia);
 
-})();
+})(socialMedia);
 
